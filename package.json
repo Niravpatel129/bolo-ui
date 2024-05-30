@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.0",
+    "@storybook/cli": "^8.1.5",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
