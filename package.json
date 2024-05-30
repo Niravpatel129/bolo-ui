@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "storybook": "storybook dev -p 6006",
+    "storybook": "npx sb dev",
     "dev": "next dev",
     "build": "npm run build-storybook",
     "start": "npm run storybook --port $PORT",
