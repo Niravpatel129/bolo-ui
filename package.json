@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "storybook": "storybook dev -p 6006",
     "dev": "next dev",
     "build": "npm run build-storybook",
     "start": "npm run storybook --port $PORT",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "sb build",
     "serve-storybook": "serve storybook-static"
   },
   "dependencies": {
