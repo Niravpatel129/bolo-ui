@@ -4,7 +4,8 @@ export default {
   title: 'Components/DTFHero',
   component: DTFHero,
   parameters: {
-    layout: 'fullscreen',
+    // layout: 'fullscreen',
+    layout: 'centered',
   },
 };
 
