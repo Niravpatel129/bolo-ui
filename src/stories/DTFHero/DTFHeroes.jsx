@@ -52,7 +52,7 @@ export default function Template() {
                   <path strokeLinecap='round' strokeLinejoin='round' d='m4.5 12.75 6 6 9-13.5' />
                 </svg>
               </div>
-              <div className='text-lg text-nowrap'>High Quality</div>
+              <div className='text-lg text-nowrap'>High Quality Nirav</div>
             </div>
           </div>
           <div className='mt-8 w-full flex flex-col gap-4'>
