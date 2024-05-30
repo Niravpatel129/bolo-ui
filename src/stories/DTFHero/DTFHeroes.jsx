@@ -1,9 +1,11 @@
+import Image from 'next/image';
+
 export default function Template() {
   return (
     <>
       <div className='bg-[#EBF1F7]'>
         <div className='flex justify-between p-8 gap-28 w-full items-center flex-col md:flex-row'>
-          <div className='w-full flex flex-col justify-between items-center max-w-[600px]'>
+          <div className='w-full flex flex-col justify-between items-center'>
             <div className='text-5xl font-bold mb-2'>
               Custom DTF Transfers straight to your door
             </div>
@@ -67,12 +69,8 @@ export default function Template() {
               </div>
             </div>
           </div>
-          <div className='max-w-[600px]'>
-            <img
-              src='https://i.redd.it/i-got-bored-so-i-decided-to-draw-a-random-image-on-the-v0-4ig97vv85vjb1.png?width=1280&format=png&auto=webp&s=7177756d1f393b6e093596d06e1ba539f723264b'
-              alt=''
-              className='w-full'
-            />
+          <div className='relative w-full h-[600px]'>
+            <Image src='../../bunny.png' alt='' fill className='w-full h-full object-cover' />
           </div>
         </div>
       </div>
