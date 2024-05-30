@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import './button.css';
 
@@ -8,18 +7,18 @@ import './button.css';
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-    <button
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      {...props}
-    >
-      {label}
-      <style jsx>{`
-        button {
-          background-color: ${backgroundColor};
-        }
-      `}</style>
-    </button>
+    <div>
+      <div className='border border-gray-300 rounded-lg p-4 flex justify-between items-center max-w-sm mx-auto'>
+        <div className='text-2xl font-medium'>
+          128<span className='text-xs align-super'>GB²</span>
+        </div>
+        <div className='text-right text-sm'>
+          <div>From $999</div>
+          <div>or $41.62/mo.</div>
+          <div>for 24 mo. *</div>
+        </div>
+      </div>
+    </div>
   );
 };
 
