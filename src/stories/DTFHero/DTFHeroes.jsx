@@ -69,7 +69,7 @@ export default function Template() {
               </div>
             </div>
           </div>
-          <div className='relative w-full h-[600px]'>
+          <div className='relative w-full h-[500px]'>
             <Image src='../../bunny.png' alt='' fill className='w-full h-full object-cover' />
           </div>
         </div>
