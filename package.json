@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "npm run build-storybook",
     "start": "npm run storybook --port $PORT",
-    "build-storybook": "sb build",
+    "build-storybook": "npx sb build",
     "serve-storybook": "serve storybook-static"
   },
   "dependencies": {
