@@ -11,4 +11,3 @@ export default {
 export const Default = {
   args: {},
 };
-// This is comment
