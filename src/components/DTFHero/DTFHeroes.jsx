@@ -71,7 +71,7 @@ export default function DTFHeroes() {
             </div>
           </div>
           <div className='relative w-full h-[500px]'>
-            <Image src='../../bunny.png' alt='' fill className='w-full h-full object-cover' />
+            <Image src='/bunny.png' alt='' fill className='w-full h-full object-cover' />
           </div>
         </div>
       </div>
