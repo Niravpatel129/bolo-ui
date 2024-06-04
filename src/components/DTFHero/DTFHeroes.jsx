@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import React from 'react';
 
-export default function Template() {
+export default function DTFHeroes() {
   return (
-    <>
+    <React.Fragment>
       <div className='bg-[#EBF1F7]'>
         <div className='flex justify-between p-8 gap-28 w-full items-center flex-col md:flex-row'>
           <div className='w-full flex flex-col justify-between items-center'>
@@ -74,6 +75,6 @@ export default function Template() {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }
