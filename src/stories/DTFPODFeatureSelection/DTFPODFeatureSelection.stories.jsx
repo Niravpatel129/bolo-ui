@@ -11,5 +11,17 @@ export default {
 
 export const Default = {
   args: {},
+  parameters: {
+    defaultViewport: 'Desktop'
+  }
+};
+
+export const DefaultMobile = {
+  args: {},
+  parameters: {
+    viewport: {
+      defaultViewport: 'mobile1'
+    }
+  }
 };
 // This is comment
