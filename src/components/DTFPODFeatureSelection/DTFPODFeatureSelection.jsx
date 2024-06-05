@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Template() {
   return (
-    <div className="bg-[#EBF1F7] ">
+    <div className="bg-[#EBF1F7] font-inter">
       <div className="max-w-7xl mx-auto px-4 md:px-24 py-8 flex flex-col md:flex-row items-center justify-between gap-24">
         <div className="md:w-1/2 flex flex-col items-start space-y-4">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2">
@@ -54,11 +54,9 @@ export default function Template() {
           </div>
           <div className="flex flex-col space-y-4 mt-6 w-full">
             <button className="bg-[#0176C3] text-white py-3 rounded-full text-center hover:opacity-85 transition duration-200">
-              Upload Your Design
+              Get Started
             </button>
-            <button className="border border-black text-black py-3 rounded-full text-center hover:bg-[#0176C3] hover:text-white transition duration-200">
-              Order Custom Design
-            </button>
+            
           </div>
         </div>
         <div className="relative w-full md:w-4/12 h-[300px] md:h-[450px] lg:h-[500px]">

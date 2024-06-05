@@ -12,10 +12,10 @@ export default function Template() {
   return (
     <>
     <div className='max-w-6xl mx-auto px-4 py-12'>
-      <div className='text-center text-2xl sm:text-3xl md:text-4xl font-extrabold mb-8'>
+      <div className='text-center text-2xl sm:text-3xl md:text-4xl font-inter font-bold mb-8'>
         Any Design, Any Material, Made Possible with DTF
       </div>
-      <div className='text-center text-base sm:text-lg md:text-xl font-medium mb-12'>
+      <div className='text-center text-base sm:text-lg md:text-xl font-medium font-inter mb-12'>
         <p className='py-2'>
           We make production quality transfers for anyone from large shops to hobbyists, and all brands in between.
         </p>
@@ -31,7 +31,7 @@ export default function Template() {
               alt={material.name}
               className='max-w-[100px] sm:max-w-[125px] md:max-w-[150px] mb-2'
             />
-            <div className='text-center text-sm sm:text-base md:text-lg font-normal'>{material.name}</div>
+            <div className='text-center text-sm sm:text-base md:text-lg font-regular font-inter'>{material.name}</div>
           </div>
         ))}
       </div>
