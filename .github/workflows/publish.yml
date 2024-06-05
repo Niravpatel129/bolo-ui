@@ -22,6 +22,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Bump version and push tag
+        id: version
+        run: |
+          npm run release
+          git push --follow-tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build the library
         run: npm run build-library
 

@@ -14,7 +14,8 @@
     "start": "npm run storybook --port $PORT",
     "build-storybook": "npx sb build",
     "serve-storybook": "serve storybook-static",
-    "build-library": "babel src --out-dir lib"
+    "build-library": "babel src --out-dir lib",
+    "release": "standard-version"
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.0",
@@ -42,7 +43,8 @@
     "eslint-plugin-storybook": "^0.8.0",
     "postcss": "^8",
     "storybook": "^8.1.5",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "standard-version": "^9.3.2"
   },
   "peerDependencies": {
     "react": "^18.0.0",
